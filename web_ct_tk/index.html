@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Berpikir Komputasional - TK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Home View -->
+        <div id="home-view" class="view active">
+            <h1>🤖 Halo Teman!</h1>
+            <p style="font-size: 1.5rem;">Belajar Berpikir Komputasional</p>
+            <button id="start-btn" class="big-btn">▶️ Mulai Main</button>
+        </div>
+
+        <!-- Lesson View -->
+        <div id="lesson-view" class="view">
+            <h2 id="lesson-title">Pelajaran</h2>
+            <div id="lesson-content" class="content-box">
+                <!-- Dynamic Content will go here -->
+            </div>
+            <div class="controls">
+                <button id="next-lesson-btn" class="nav-btn">Lanjut ➡️</button>
+            </div>
+        </div>
+
+        <!-- Quiz View -->
+        <div id="quiz-view" class="view">
+            <h2 id="quiz-question">Pertanyaan</h2>
+            <div id="quiz-content" class="content-box">
+                <!-- Question Visuals -->
+            </div>
+            <div id="quiz-options" class="options-container">
+                <!-- Options buttons -->
+            </div>
+            <div id="feedback" class="feedback-msg"></div>
+        </div>
+
+        <!-- Result View -->
+        <div id="result-view" class="view">
+            <h2>🎉 Selesai!</h2>
+            <p id="final-score">Skor kamu: </p>
+            <button id="restart-btn" class="big-btn">Main Lagi 🔄</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    user-select: none;
+}
+
+.view {
+    display: none;
+}
+
+.view.active {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.big-btn {
+    font-size: 2rem;
+    padding: 20px 40px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px #cc7a00;
+    margin-top: 50px;
+    transition: all 0.1s;
+}
+
+.big-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px #cc7a00;
+}
+
+.nav-btn {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    background-color: #33cc33;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px #228822;
+    margin-top: 20px;
+}
+
+.nav-btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px #228822;
+}
+
+h1 {
+    color: #0066cc;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #0066cc;
+    font-size: 2.5rem;
+}
+
+.content-box {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sequence Styles */
+.sequence-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.step {
+    text-align: center;
+}
+
+.emoji {
+    font-size: 4rem;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: #666;
+}
+
+/* Pattern Styles */
+.pattern-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shape {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Circle by default */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/* Quiz Options */
+.options-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.option-btn {
+    font-size: 4rem;
+    background: white;
+    border: 4px solid #ffcc00;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.option-btn:hover {
+    transform: scale(1.1);
+    background-color: #fff8e1;
+}
+
+.feedback-msg {
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: bold;
+    min-height: 3rem;
+}
