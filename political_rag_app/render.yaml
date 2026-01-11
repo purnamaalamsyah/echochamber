@@ -1,0 +1,20 @@
+# Render Blueprint for Political-RAG Indonesia
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: political-rag-indonesia
+    env: python
+    region: singapore  # Closest to Indonesia
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: true
+      - key: STREAMLIT_SERVER_ENABLE_CORS
+        value: false
+    healthCheckPath: /
+    autoDeploy: true

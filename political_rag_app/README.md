@@ -137,6 +137,25 @@ Pemilu, Pilpres, Pilkada, Koalisi, Oposisi, Kampanye, dll.
 - **Plotly**: Visualisasi interaktif
 - **Pandas**: Data processing
 
+## 🚀 Deployment
+
+Aplikasi ini dapat di-deploy ke berbagai platform cloud. Lihat [DEPLOYMENT.md](DEPLOYMENT.md) untuk panduan lengkap.
+
+### Quick Deploy Options:
+
+| Platform | Link | Status |
+|----------|------|--------|
+| **Streamlit Cloud** | [share.streamlit.io](https://share.streamlit.io/) | Recommended |
+| **Render** | [render.com](https://render.com/) | Free tier |
+| **Railway** | [railway.app](https://railway.app/) | Easy setup |
+| **Hugging Face** | [huggingface.co/spaces](https://huggingface.co/spaces) | AI community |
+
+### Deploy ke Streamlit Cloud (Tercepat):
+1. Push repo ke GitHub
+2. Buka [share.streamlit.io](https://share.streamlit.io/)
+3. Connect repo dan pilih `political_rag_app/app.py`
+4. Klik Deploy!
+
 ## 📝 Lisensi
 
 MIT License - Bebas digunakan untuk keperluan pendidikan dan penelitian.
