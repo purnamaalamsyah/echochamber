@@ -1,0 +1,140 @@
+
+R Version Information:
+[1] "R version 4.3.3 (2024-02-29)"
+
+Script started at: 2025-11-08 14:31:05
+
+Loading required packages...
+trying URL 'https://cloud.r-project.org/src/contrib/pkgbuild_1.4.8.tar.gz'
+Content type 'application/x-gzip' length 51302 bytes (50 KB)
+==================================================
+downloaded 50 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/diffobj_0.3.6.tar.gz'
+Content type 'application/x-gzip' length 472960 bytes (461 KB)
+==================================================
+downloaded 461 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/callr_3.7.6.tar.gz'
+Content type 'application/x-gzip' length 104358 bytes (101 KB)
+==================================================
+downloaded 101 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/desc_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 80066 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pkgload_1.4.1.tar.gz'
+Content type 'application/x-gzip' length 87507 bytes (85 KB)
+==================================================
+downloaded 85 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/processx_3.8.6.tar.gz'
+Content type 'application/x-gzip' length 165190 bytes (161 KB)
+==================================================
+downloaded 161 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ps_1.9.1.tar.gz'
+Content type 'application/x-gzip' length 167920 bytes (163 KB)
+==================================================
+downloaded 163 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/waldo_0.6.2.tar.gz'
+Content type 'application/x-gzip' length 45913 bytes (44 KB)
+==================================================
+downloaded 44 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pillar_1.11.1.tar.gz'
+Content type 'application/x-gzip' length 409508 bytes (399 KB)
+==================================================
+downloaded 399 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/audio_0.1-11.tar.gz'
+Content type 'application/x-gzip' length 58293 bytes (56 KB)
+==================================================
+downloaded 56 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/globals_0.18.0.tar.gz'
+Content type 'application/x-gzip' length 51920 bytes (50 KB)
+==================================================
+downloaded 50 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/listenv_0.10.0.tar.gz'
+Content type 'application/x-gzip' length 34253 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.oo_1.27.1.tar.gz'
+Content type 'application/x-gzip' length 384264 bytes (375 KB)
+==================================================
+downloaded 375 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'application/x-gzip' length 24131 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pkgconfig_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 6080 bytes
+==================================================
+downloaded 6080 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/rbibutils_2.4.tar.gz'
+Content type 'application/x-gzip' length 1170691 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'application/x-gzip' length 74622 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rematch_2.0.0.tar.gz'
+Content type 'application/x-gzip' length 4781 bytes
+==================================================
+downloaded 4781 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/prettyunits_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 97496 bytes (95 KB)
+==================================================
+downloaded 95 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bit64_4.6.0-1.tar.gz'
+Content type 'application/x-gzip' length 142045 bytes (138 KB)
+==================================================
+downloaded 138 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/askpass_1.2.1.tar.gz'
+Content type 'application/x-gzip' length 6058 bytes
+==================================================
+downloaded 6058 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/gtable_0.3.6.tar.gz'
+Content type 'application/x-gzip' length 148148 bytes (144 KB)
+==================================================
+downloaded 144 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/permute_0.9-8.tar.gz'
+Content type 'application/x-gzip' length 119505 bytes (116 KB)
+==================================================
+downloaded 116 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/testthat_3.2.3.tar.gz'
+Content type 'application/x-gzip' length 738940 bytes (721 KB)
+==================================================
+downloaded 721 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/parallelly_1.45.1.tar.gz'
+Content type 'application/x-gzip' length 318137 bytes (310 KB)
+==================================================
+downloaded 310 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dplyr_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 1207521 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sessioninfo_1.2.3.tar.gz'
+Content type 'application/x-gzip' length 175597 bytes (171 KB)
+====
